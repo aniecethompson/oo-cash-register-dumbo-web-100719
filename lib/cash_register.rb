@@ -49,6 +49,6 @@ def void_last_transaction
     if self.total < 1
      return self.total= 0.0
     end
-@total
+# @total
 end
 end
