@@ -46,6 +46,7 @@ class CashRegister
 def void_last_transaction
   
   self.total = self.total - @price
+  binding.pry
     if @cart == []
       return self.total = 0.0
     end
