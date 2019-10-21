@@ -47,7 +47,7 @@ def void_last_transaction
    binding.pry
   self.total = self.total - @price
     if self.total == 0.0
-      return @total= 0.0
+      return self.total= 0.0
     end
 @total
 end
